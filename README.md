@@ -28,7 +28,7 @@ While the C++ scanner works perfectly for static files, it is insufficient in to
 
 Instead of writing a custom C++ scanner for every signature, cybersecurity professionals use tools like **YARA**. YARA is described as the "pattern matching swiss knife for malware researchers." It allows analysts to write rules based on textual or binary patterns to classify and identify malware samples rapidly.
 
-Here is how the exact same EICAR detection looks when written as a YARA rule:
+Here  is how the exact same EICAR detection looks when written as a YARA rule:
 
 ```yara
 rule EICAR_Test_File
